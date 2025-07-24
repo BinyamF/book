@@ -11,6 +11,6 @@ public class WelcomePage {
     @ResponseBody
     public String welcomeAsHTML() {
         return "<html>\n" + "<header><title>Welcome</title></header>\n" +
-                "<body>\n" + "Hello world\n" + "</body>\n" + "</html>";
+                "<body>\n" + "HELLO WORLD\n" + "</body>\n" + "</html>";
     }
 }
